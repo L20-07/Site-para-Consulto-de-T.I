@@ -1,0 +1,80 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #87BFD6;
+    font-family: 'Arial';
+    text-align: center;
+}
+
+.topo{
+    background-color: #87BFD6;
+    color: black;
+    padding: 100ss0px;
+    justify-content: center;
+    text-align: center;
+}
+
+.conteudo {
+    background-color: #C4D5EE;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0 80px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+
+}
+
+.conteudo div {
+    margin: 10px 10px 10px 0;
+    padding: 10px
+}
+
+.opcoes {
+    border: 1px solid #E2E2E2;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+    text-align: left;
+    color: black;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='password'],
+input[type='tel'],
+textarea, select {
+    width: 97%;
+    padding: 8px;
+    border: 1px solid #255B6C;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button, input[type='button'] {
+    width: 130px;
+    padding: 8px;
+    font-size: 16px;
+    font-family: 'Arial';
+    font-weight: 'bold';
+    color: white;
+    background-color: #255B6C;
+    border: 0px;
+    border-radius: 8px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+button:hover, input[type='button']:hover {
+    background-color: #255B6C;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    color: black;
+}

@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E0E7EF;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.topo {
+    background-color: #2C3E83;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.imagem-logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.topo-texto h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.topo-texto h3 {
+    font-size: 18px;
+    color: #CAD7F2;
+}
+.corpo {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    background-color: #CAD7F2;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: 45%;
+}
+
+.link a {
+    color: #2C3E83;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.conteudo-consultor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.texto-consultor {
+    width: 55%;
+}
+
+.texto-consultor h1 {
+    font-size: 28px;
+    color: #2C3E83;
+    margin-bottom: 10px;
+}
+
+.texto-consultor h2 {
+    font-size: 24px;
+    color: #2C3E83;
+    margin-top: 20px;
+}
+
+.texto-consultor p, .texto-consultor ul {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.texto-consultor ul {
+    list-style: none;
+    padding-left: 0;
+}
+.texto-consultor ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+.texto-consultor ul li::before {
+    content: "•";
+    color: #2C3E83;
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    line-height: 20px;
+}
+.imagem-consultor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.profile-picture {
+    background-color: #2C3E83;
+    border-radius: 50%;
+    padding: 10px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.imagem-perfil {
+    border-radius: 50%;
+    width: 336px;
+    height: 336px;
+}
